@@ -1,7 +1,7 @@
 export type AcpAgentOptions = {
   /** Command to launch the ACP agent, e.g. "npx" */
   command: string;
-  /** Command arguments, e.g. ["@zed-industries/codex-acp"] */
+  /** Command arguments, e.g. ["@agentclientprotocol/codex-acp"] */
   args?: string[];
   /** Extra environment variables for the subprocess */
   env?: Record<string, string>;
